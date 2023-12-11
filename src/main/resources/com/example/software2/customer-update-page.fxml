@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.software2.controller.UpdateCustomerController">
+   <children>
+      <VBox layoutX="52.0" layoutY="61.0" prefHeight="305.0" prefWidth="134.0">
+         <children>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="Customer ID" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="Name" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="Address" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="Phone Number" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="Country" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="State/Province" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <Label layoutX="21.0" layoutY="23.0" text="Postal Code" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <VBox layoutX="189.0" layoutY="61.0" prefHeight="305.0" prefWidth="352.0">
+         <children>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <TextField fx:id="updateCustomerID" layoutY="20.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <TextField fx:id="updateCustomerName" layoutY="20.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <TextField fx:id="updateCustomerAddress" layoutY="17.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <TextField fx:id="updateCustomerPhoneNumber" layoutY="18.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <ComboBox fx:id="updateCustomerCountry" layoutY="18.0" prefHeight="26.0" prefWidth="160.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <ComboBox fx:id="updateCustomerProvince" layoutY="16.0" prefHeight="26.0" prefWidth="160.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="50.0" prefWidth="241.0">
+               <children>
+                  <TextField fx:id="updateCustomerPostalCode" layoutY="17.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Label layoutX="124.0" layoutY="14.0" text="Add Customer">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="119.0" layoutY="391.0" mnemonicParsing="false" onAction="#updateCustomerSaveButtonClicked" text="Save" />
+      <Button layoutX="254.0" layoutY="391.0" mnemonicParsing="false" onAction="#updateCustomerCancelButtonClicked" text="Cancel" />
+   </children>
+</AnchorPane>

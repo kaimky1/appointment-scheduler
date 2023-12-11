@@ -1,0 +1,5 @@
+module:com.example.helloworldjfxtemplate
+com.example.software2
+com.example.software2.controller
+com.example.software2.helper
+com.example.software2.model
