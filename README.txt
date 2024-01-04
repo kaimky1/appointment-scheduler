@@ -7,7 +7,6 @@
 •  JavaFX version compatible with JDK version - JavaFX-SDK-20.0.2
 
 •  Directions for how to run the program
-   - After confirming your setup is compatible with the IDE, JDK, and JavaFX version, you can download the project and
-     run it. User will be prompted to enter a username and password.
+   - After confirming your setup is compatible with the IDE, JDK, and JavaFX version, you can download the project and run it. User will be prompted to enter a username and password.
 
 •  The MySQL Connector driver version number, including the update number - mysql-connector-java-8.1.0
